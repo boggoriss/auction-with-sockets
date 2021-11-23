@@ -1,0 +1,28 @@
+{
+  "name": "auction-with-sockets",
+  "version": "1.0.0",
+  "description": "auction with web sockets",
+  "main": "index.js",
+  "author": "the Boris.",
+  "license": "MIT",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "start": "node index.js",
+    "serve": "nodemon index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cookieparser": "^0.1.0",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2",
+    "socket.io": "^4.4.0",
+    "socket.io-client": "^4.4.0",
+    "socketio": "^1.0.0",
+    "uuid": "^8.3.2"
+  }
+}
